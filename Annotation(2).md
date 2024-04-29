@@ -16,13 +16,14 @@
 
 실제로 위쪽에서 간단하게 주문시스템의 테이블을 나타내보았는데, 해당 테이블의 엔티티를 보면 양방향으로 매핑이 되어있습니다.
 
- 
+
+Order Entity  
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FoukCp%2FbtsG0ecuNbD%2Fmb8KbBF3SGbf4wmTPvvmv0%2Fimg.png)  
-Order Entity
+OrderItem Entity  
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdV5xiL%2FbtsGZXu2eeZ%2FgapMgBXc49wHBgb9NXib11%2Fimg.png)  
-OrderItem Entity
+Item Entity    
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdVlmTU%2FbtsG3BRuyYU%2FqRcwdSYE44Xzuydq76d5Q1%2Fimg.png)  
-Item Entity  
+
 
 하지만 위의 3가지 엔티티에서 보다시피 데이터베이스에는 존재하지않는 참조용 필드가 존재하는것을 볼 수가 있습니다.
 
